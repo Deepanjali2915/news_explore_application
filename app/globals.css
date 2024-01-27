@@ -1,0 +1,146 @@
+*{
+  /* box-sizing:border-box; */
+  /* margin:0px; */
+  /* border: 1px solid red; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30px;
+}
+.headertext{
+  color: var(--Dark, #3C3030);
+  font-family: "Iowan Old Style";
+  font-size: 84px;
+  font-style: normal;
+  font-weight: 400;
+line-height: 140%; /* 117.6px */
+}
+
+.input-group{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 89px;
+  margin-bottom: 89px;;
+  /* border:1px solid black; */
+}
+
+.form-control{
+  border: 1px solid white;
+  height: 61px;
+  width: 327px;
+  Display: flex;
+  flex-direction: row;
+
+  /* padding-right: px; */
+}
+.placeholder{
+  font-size: 400px;
+}
+
+.form-outline{
+  border:1px solid black;
+  Display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  
+}
+
+.form-outline img{
+  width: 32px;
+  margin-top:15px;
+  height: 32px;
+  flex-shrink: 0;
+  /* border: 1px solid green; */
+}
+
+.form-label{
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 63px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+.heading{
+  color: var(--Dark-Red, #D02424);
+font-family: "Inria Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+letter-spacing: -0.4px;
+text-transform: uppercase;
+margin-left: 250px;
+}
+
+.pricing-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap:100px;
+  /* margin-top: 250px; */
+  
+}
+
+.pricing-plan{
+  width: 400px;
+  height: 600px;
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.plan-title{
+  color: black;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.plan-price{
+  color: black;
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+
+.plan-button{
+  background-color:#FF681F;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+  font-weight: bolder;
+}
+.plan-features{
+list-style: none;
+color: black;
+
+
+}
+@media  (max-width: 700px) {
+.pricing-container{
+  margin-top: 0px;
+}
+
+.heading{
+  margin-left:40px ;
+}
+}
